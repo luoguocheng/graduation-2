@@ -34,7 +34,7 @@ public class LunwenController {
 	
 	@RequestMapping("/gotoTstudentlunwen")
 	public String gotoTstudentlunwen(String studentId) {
-		return "redirect:http://localhost:8080/graduation/teacher/tstudentlunwen.html?studentId="+studentId;
+		return "redirect:http://47.102.202.189:8080/graduation/teacher/tstudentlunwen.html?studentId="+studentId;
 	}
 	
 	@ResponseBody

@@ -172,7 +172,7 @@ public class StudentController {
 	
 	@RequestMapping("/gotoTstudentscore")
 	public String gotoTstudentscore(@RequestParam(required=true)String studentId) {
-		return "redirect:http://localhost:8080/graduation/teacher/tstudentscore.html?studentId="+studentId;
+		return "redirect:http://47.102.202.189:8080/graduation/teacher/tstudentscore.html?studentId="+studentId;
 	}
 	
 	@ResponseBody
